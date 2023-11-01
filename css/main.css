@@ -1,14 +1,15 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(109, 189, 255);
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
+  font-family: 'Roboto', sans-serif;
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -17,13 +18,15 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: rgb(158, 147, 255);
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #92a6ff;
+  font-family: 'Roboto', sans-serif;
+  background-color: #8c94ff;
   color: white;
 }
 
@@ -33,9 +36,92 @@
 }
 
 /* Style for page content */
-.content {
-  padding: 14px;
-  font-size: 22px;
+.contentindex {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('C:/Users/Lawre/Desktop/GEOG495_Lab02/geog495_lab02/img/indexyoko.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 75vh; /* Adjust as needed */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: left;
+  padding: 0 50px;
+  color: white;
+}
+.contentsection1 {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('img/section1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 75vh; /* Adjust as needed */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: left;
+  padding: 0 50px;
+  color: white;
+}
+.contentsection2 {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('img/section2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 75vh; /* Adjust as needed */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: left;
+  padding: 0 50px;
+  color: white;
+}
+.contentsection3 {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('img/section3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 75vh; /* Adjust as needed */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: left;
+  padding: 0 50px;
+  color: white;
+}
+.contentseealso {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('img/see_also.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 75vh; /* Adjust as needed */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: left;
+  padding: 0 50px;
+  color: white;
+}
+
+.translucent-box {
+  background-color: rgba(200, 200, 200, 0.8); /* Adjust the color and opacity */
+  padding: 30px;
+  max-width: 1000px; /* Adjust as needed */
+}
+h1, p {
+  font-size: 1.5em; /* Adjusted font size */
+}
+
+.btn {
+  font-size: 1em; /* Adjusted button font size */
+}
+.background-overlay {
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust the color and opacity */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Lower z-index to be behind the content */
 }
 
 /* When the screen is less than 800 pixels wide, */
