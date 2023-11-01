@@ -38,9 +38,6 @@
 /* Style for page content */
 .contentindex {
   font-family: 'Roboto', sans-serif;
-  background-image: url('img/indexyoko.jpg');
-  background-size: cover;
-  background-position: center;
   height: 75vh; /* Adjust as needed */
   display: flex;
   justify-content: flex-start;
@@ -51,9 +48,6 @@
 }
 .contentsection1 {
   font-family: 'Roboto', sans-serif;
-  background-image: url('img/section1.jpg');
-  background-size: cover;
-  background-position: center;
   height: 75vh; /* Adjust as needed */
   display: flex;
   justify-content: flex-start;
@@ -64,9 +58,6 @@
 }
 .contentsection2 {
   font-family: 'Roboto', sans-serif;
-  background-image: url('img/section2.jpg');
-  background-size: cover;
-  background-position: center;
   height: 75vh; /* Adjust as needed */
   display: flex;
   justify-content: flex-start;
@@ -77,22 +68,6 @@
 }
 .contentsection3 {
   font-family: 'Roboto', sans-serif;
-  background-image: url('img/section3.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 75vh; /* Adjust as needed */
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  text-align: left;
-  padding: 0 50px;
-  color: white;
-}
-.contentseealso {
-  font-family: 'Roboto', sans-serif;
-  background-image: url('img/see_also.jpg');
-  background-size: cover;
-  background-position: center;
   height: 75vh; /* Adjust as needed */
   display: flex;
   justify-content: flex-start;
@@ -103,7 +78,7 @@
 }
 
 .translucent-box {
-  background-color: rgba(200, 200, 200, 0.8); /* Adjust the color and opacity */
+  background-color: rgba(131, 131, 131, 0.9); /* Adjust the color and opacity */
   padding: 30px;
   max-width: 1000px; /* Adjust as needed */
 }
@@ -132,11 +107,17 @@ h1, p {
   padding: 18px;
   width: 100%;
   text-align: left;
+  align-items: flex-end;
   border: none;
   outline: none;
   transition: 0.4s;
 }
 
+
+.content-container {
+  position: relative;
+  z-index: 1;
+}
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   background-color: #ccc;
@@ -144,7 +125,8 @@ h1, p {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 0 18px;
+  padding: 10px;
+  margin-bottom: 10px;
   background-color: white;
   display: none;
   overflow: hidden;
