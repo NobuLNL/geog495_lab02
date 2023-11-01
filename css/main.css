@@ -38,7 +38,7 @@
 /* Style for page content */
 .contentindex {
   font-family: 'Roboto', sans-serif;
-  background-image: url('img/indexyoko.jpg');
+  background-image: url('https://github.com/NobuLNL/geog495_lab02/blob/acaf192912b99f1ff612a78a95cb6bd712269191/img/indexyoko.jpg');
   background-size: cover;
   background-position: center;
   height: 75vh; /* Adjust as needed */
