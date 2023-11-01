@@ -38,7 +38,7 @@
 /* Style for page content */
 .contentindex {
   font-family: 'Roboto', sans-serif;
-  background-image: url('/img/indexyoko.jpg');
+  background-image: url('img/indexyoko.jpg');
   background-size: cover;
   background-position: center;
   height: 75vh; /* Adjust as needed */
